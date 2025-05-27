@@ -5,7 +5,7 @@ export function SignupWithGoogle(){
         supabase.auth.signInWithOAuth({
               provider: "google",
               options: {
-                redirectTo: "https://snippet-app-pied.vercel.app/login",
+                redirectTo: "https://snippet-app-pied.vercel.app",
               },
             });
     }catch(e){
